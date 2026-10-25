@@ -1,0 +1,1 @@
+print('In the morning I get up at 6:30 AM\n','I go to school at 7:30 AM \n','I come back home at 2:30 PM and then do my homework\n','I go to sleep at 10:00 PM')
