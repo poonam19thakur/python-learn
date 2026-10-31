@@ -1,4 +1,4 @@
-day = input('Enter the day:') .upper()
+day = input('Enter the day:') .lower()
 weather = input('Enter current weather:').lower()
 homework = input('homework done (yes|no):')
 
@@ -6,13 +6,16 @@ print(f'Your plan for the {day}:')
 
 if day in ('sunday','saturday'):
     print('Weekend.')
+
 elif day == 'monday':
     print('First day of week.')
+
 elif day == 'friday':
     print('Last day of school.')
 
 elif day in ('tuesday','wednesday','thursday'):
     print('Regular days.')
+
 else:
     print('Day not recognised.')
 
