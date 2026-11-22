@@ -10,8 +10,10 @@ family_members = 4
 total_price = rice_price + chocolate_price + milk_price
 item_in_basket = total_price * number_of_baskets
 cost_per_person = item_in_basket / family_members
+
 print("Total price of items in the basket:", item_in_basket)
 print("Cost per person:", cost_per_person)
+
 #3.
 total_items = int(input("Enter the total number of items: "))
 people = int(input("Enter the number of people: "))
@@ -27,7 +29,7 @@ weekly_average = 95.6
 store_a_average = 50     
 store_b_average = 40       
 store_c_average = 80 
-verdict = ""
+
 if cost_per_person < store_a_average and cost_per_person < store_b_average and cost_per_person < store_c_average:
    verdict = "cheaper than all three stores"
 elif cost_per_person > store_a_average and cost_per_person > store_b_average and cost_per_person > store_c_average:
