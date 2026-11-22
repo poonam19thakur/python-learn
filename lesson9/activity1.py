@@ -27,4 +27,3 @@ elif choose ==2:
        print("Error! Enter (1|2)")
 else:
     print("Error!!,Please enter valid number...")
-

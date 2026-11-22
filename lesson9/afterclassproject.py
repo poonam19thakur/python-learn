@@ -1,0 +1,7 @@
+print("==✨=================😊=================✨==")
+print("=========== HOLIDAY ACTIVITY PLANNER =========")
+print("==✨=================😊=================✨==")
+print("Choose holiday location:")
+print("1 = Beach Holiday")
+print("2 = Mountain Holiday")
+choose_holiday = int(input("Choose Holiday location(1|2):"))
